@@ -1,0 +1,75 @@
+#app {
+  position: relative;
+}
+
+.hide {
+  display: none !important;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 200px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  z-index: 100;
+  padding: 10px;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+  .center {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+}
+
+.post__cards {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 30px;
+    margin: 20px;
+}
+
+.post__card {
+    display: flex;
+    flex-direction: column;
+    grid-column: span 2;
+}
+
+.post__card-pic {
+    margin-bottom: 20px;
+}
+
+.post__card-pic img {
+  object-fit: cover;
+}
+
+.post__card-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+    text-align: center;
+}
+
+.post__card-desc {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.pagination {
+  margin-left: 43% ;
+}
