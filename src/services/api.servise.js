@@ -10,6 +10,13 @@ export async function load(event, type) {
   const data = await response.json();
 
   console.log(data);
+  arrData = data.results
 
   paginationComponent(data.results, type)
 }
+
+export function returnData() {
+  return arrData
+}
+
+let arrData = []
