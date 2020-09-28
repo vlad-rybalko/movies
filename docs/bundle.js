@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);\n// Module\n___CSS_LOADER_EXPORT___.push([module.i, \"#app {\\r\\n  position: relative;\\r\\n}\\r\\n\\r\\n.hide {\\r\\n  display: none !important;\\r\\n}\\r\\n\\r\\n.content {\\r\\n  position: absolute;\\r\\n  top: 0;\\r\\n  right: 0;\\r\\n  left: 200px;\\r\\n}\\r\\n\\r\\n.sidebar {\\r\\n  position: fixed;\\r\\n  top: 0;\\r\\n  bottom: 0;\\r\\n  left: 0;\\r\\n  width: 200px;\\r\\n  z-index: 100;\\r\\n  padding: 10px;\\r\\n  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);\\r\\n  overflow-y: auto;\\r\\n}\\r\\n\\r\\n  .center {\\r\\n    text-align: center;\\r\\n    margin: 0 auto;\\r\\n  }\\r\\n\\r\\n  img {\\r\\n    max-width: 100%;\\r\\n    height: auto;\\r\\n}\\r\\n\\r\\n.post__cards {\\r\\n    display: grid;\\r\\n    grid-template-columns: repeat(8, 1fr);\\r\\n    grid-column-gap: 50px;\\r\\n    grid-row-gap: 30px;\\r\\n    margin: 20px;\\r\\n}\\r\\n\\r\\n.post__card {\\r\\n    display: flex;\\r\\n    flex-direction: column;\\r\\n    grid-column: span 2;\\r\\n}\\r\\n\\r\\n.post__card-pic {\\r\\n    margin-bottom: 20px;\\r\\n}\\r\\n\\r\\n.post__card-pic img {\\r\\n  object-fit: cover;\\r\\n}\\r\\n\\r\\n.post__card-title {\\r\\n    font-weight: 500;\\r\\n    font-size: 18px;\\r\\n    line-height: 24px;\\r\\n    color: black;\\r\\n    text-align: center;\\r\\n}\\r\\n\\r\\n.post__card-desc {\\r\\n    font-size: 16px;\\r\\n    line-height: 24px;\\r\\n}\\r\\n\\r\\n.pagination {\\r\\n  margin-left: 43% ;\\r\\n}\", \"\"]);\n// Exports\n/* harmony default export */ __webpack_exports__[\"default\"] = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack:///./src/styles/main.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);\n// Module\n___CSS_LOADER_EXPORT___.push([module.i, \"#app {\\r\\n  position: relative;\\r\\n}\\r\\n\\r\\n.hide {\\r\\n  display: none !important;\\r\\n}\\r\\n\\r\\n.content {\\r\\n  position: absolute;\\r\\n  top: 0;\\r\\n  right: 0;\\r\\n  left: 200px;\\r\\n}\\r\\n\\r\\n.sidebar {\\r\\n  position: fixed;\\r\\n  top: 0;\\r\\n  bottom: 0;\\r\\n  left: 0;\\r\\n  width: 200px;\\r\\n  z-index: 100;\\r\\n  padding: 10px;\\r\\n  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);\\r\\n  overflow-y: auto;\\r\\n}\\r\\n\\r\\n  .center {\\r\\n    text-align: center;\\r\\n    margin: 0 auto;\\r\\n  }\\r\\n\\r\\n  img {\\r\\n    max-width: 100%;\\r\\n    height: auto;\\r\\n}\\r\\n\\r\\n.post__cards {\\r\\n    display: grid;\\r\\n    grid-template-columns: repeat(8, 1fr);\\r\\n    grid-column-gap: 50px;\\r\\n    grid-row-gap: 30px;\\r\\n    margin: 20px;\\r\\n}\\r\\n\\r\\n.post__card {\\r\\n    display: flex;\\r\\n    flex-direction: column;\\r\\n    grid-column: span 2;\\r\\n}\\r\\n\\r\\n.post__card-pic {\\r\\n    margin-bottom: 20px;\\r\\n}\\r\\n\\r\\n.post__card-pic img {\\r\\n  object-fit: cover;\\r\\n}\\r\\n\\r\\n.post__card-title {\\r\\n    font-weight: 500;\\r\\n    font-size: 18px;\\r\\n    line-height: 24px;\\r\\n    color: black;\\r\\n    text-align: center;\\r\\n}\\r\\n\\r\\n.post__card-desc {\\r\\n    font-size: 16px;\\r\\n    line-height: 24px;\\r\\n}\\r\\n\\r\\n.pagination {\\r\\n  margin-left: 43% ;\\r\\n}\\r\\n\\r\\n.movie__title {\\r\\n  text-align: center;\\r\\n  margin-bottom: 40px;\\r\\n}\\r\\n\\r\\n.movie__posters {\\r\\n  display: flex;\\r\\n  flex-wrap: wrap;\\r\\n  justify-content: center;\\r\\n}\\r\\n\\r\\n.desc {\\r\\n  max-width: 400px;\\r\\n  margin: 15px;\\r\\n}\\r\\n\\r\\n.poster {\\r\\n  max-width: 400px;\\r\\n  margin: 15px;\\r\\n}\", \"\"]);\n// Exports\n/* harmony default export */ __webpack_exports__[\"default\"] = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack:///./src/styles/main.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -130,7 +130,19 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"moviesComponent\", function() { return moviesComponent; });\n/* harmony import */ var _templates_movie_template__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../templates/movie.template */ \"./src/templates/movie.template.js\");\n\r\n\r\nfunction moviesComponent(data) {\r\n    site.innerHTML = ''\r\n\r\n    data.forEach((element) => {\r\n        const html = Object(_templates_movie_template__WEBPACK_IMPORTED_MODULE_0__[\"renderPost\"])(element)\r\n        site.insertAdjacentHTML(\"beforeend\", html);\r\n    });\r\n}\r\n\r\nconst site = document.querySelector(\".post__cards\");\r\n\n\n//# sourceURL=webpack:///./src/components/movies.component.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"moviesComponent\", function() { return moviesComponent; });\n/* harmony import */ var _templates_movie_template__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../templates/movie.template */ \"./src/templates/movie.template.js\");\n\r\n\r\nfunction moviesComponent(data) {\r\n    site.innerHTML = ''\r\n    movieInfo.innerHTML = ''\r\n\r\n    data.forEach((element) => {\r\n        const html = Object(_templates_movie_template__WEBPACK_IMPORTED_MODULE_0__[\"renderPost\"])(element)\r\n        site.insertAdjacentHTML(\"beforeend\", html);\r\n    });\r\n}\r\n\r\nconst site = document.querySelector(\".post__cards\");\r\nconst movieInfo = document.querySelector(\".movie__info\");\r\n\n\n//# sourceURL=webpack:///./src/components/movies.component.js?");
+
+/***/ }),
+
+/***/ "./src/components/page.movie.component.js":
+/*!************************************************!*\
+  !*** ./src/components/page.movie.component.js ***!
+  \************************************************/
+/*! exports provided: pageMovieComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"pageMovieComponent\", function() { return pageMovieComponent; });\n/* harmony import */ var _services_api_info_servise__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../services/api.info.servise */ \"./src/services/api.info.servise.js\");\n\r\n\r\nfunction pageMovieComponent(event) {\r\n\r\n    if (event.target.tagName === 'H3') {\r\n        event.preventDefault()\r\n        console.log(event.target)\r\n        const type = event.target.dataset.type\r\n        const id = event.target.dataset.id\r\n        site.innerHTML = ''\r\n        movieInfo.innerHTML = ''\r\n        Object(_services_api_info_servise__WEBPACK_IMPORTED_MODULE_0__[\"apiInfo\"])(type, id)\r\n    }\r\n}\r\n\r\nconst site = document.querySelector(\".post__cards\");\r\nconst movieInfo = document.querySelector(\".movie__info\");\n\n//# sourceURL=webpack:///./src/components/page.movie.component.js?");
 
 /***/ }),
 
@@ -154,7 +166,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"personComponent\", function() { return personComponent; });\n/* harmony import */ var _templates_person_template__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../templates/person.template */ \"./src/templates/person.template.js\");\n\r\n\r\nfunction personComponent(data) {\r\n\r\n    site.innerHTML = ''\r\n\r\n    data.forEach((element) => {\r\n        const html = Object(_templates_person_template__WEBPACK_IMPORTED_MODULE_0__[\"renderPerson\"])(element)\r\n        site.insertAdjacentHTML(\"beforeend\", html);\r\n    });\r\n}\r\n\r\nconst site = document.querySelector(\".post__cards\");\n\n//# sourceURL=webpack:///./src/components/person.component.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"personComponent\", function() { return personComponent; });\n/* harmony import */ var _templates_person_template__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../templates/person.template */ \"./src/templates/person.template.js\");\n\r\n\r\nfunction personComponent(data) {\r\n\r\n    site.innerHTML = ''\r\n    movieInfo.innerHTML = ''\r\n\r\n    data.forEach((element) => {\r\n        const html = Object(_templates_person_template__WEBPACK_IMPORTED_MODULE_0__[\"renderPerson\"])(element)\r\n        site.insertAdjacentHTML(\"beforeend\", html);\r\n    });\r\n}\r\n\r\nconst site = document.querySelector(\".post__cards\");\r\nconst movieInfo = document.querySelector(\".movie__info\");\n\n//# sourceURL=webpack:///./src/components/person.component.js?");
 
 /***/ }),
 
@@ -166,7 +178,19 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.css */ \"./src/styles/main.css\");\n/* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_main_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _services_api_servise__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./services/api.servise */ \"./src/services/api.servise.js\");\n\r\n\r\n\r\ndocument.querySelector('#item-actors').addEventListener('click', (event) => Object(_services_api_servise__WEBPACK_IMPORTED_MODULE_1__[\"load\"])(event, 'person'))\r\ndocument.querySelector('#item-movies').addEventListener('click', (event) => Object(_services_api_servise__WEBPACK_IMPORTED_MODULE_1__[\"load\"])(event, 'movie'))\r\n\r\ndocument.querySelector('.post__cards').addEventListener('click', (event) => {\r\n    let target = event.target\r\n    console.log(target)\r\n})\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.css */ \"./src/styles/main.css\");\n/* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_main_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _services_api_servise__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./services/api.servise */ \"./src/services/api.servise.js\");\n/* harmony import */ var _components_page_movie_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/page.movie.component */ \"./src/components/page.movie.component.js\");\n/* harmony import */ var _services_search_servise__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./services/search.servise */ \"./src/services/search.servise.js\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\ndocument.querySelector('#item-actors').addEventListener('click', (event) => Object(_services_api_servise__WEBPACK_IMPORTED_MODULE_1__[\"load\"])(event, 'person'))\r\ndocument.querySelector('#item-movies').addEventListener('click', (event) => Object(_services_api_servise__WEBPACK_IMPORTED_MODULE_1__[\"load\"])(event, 'movie'))\r\n\r\ndocument.querySelector('#search').oninput = _services_search_servise__WEBPACK_IMPORTED_MODULE_3__[\"search\"]\r\n\r\ndocument.querySelector('.post__cards').addEventListener('click', (event) => Object(_components_page_movie_component__WEBPACK_IMPORTED_MODULE_2__[\"pageMovieComponent\"])(event))\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/services/api.info.servise.js":
+/*!******************************************!*\
+  !*** ./src/services/api.info.servise.js ***!
+  \******************************************/
+/*! exports provided: apiInfo */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"apiInfo\", function() { return apiInfo; });\n/* harmony import */ var _templates_movie_page_template__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../templates/movie.page.template */ \"./src/templates/movie.page.template.js\");\n/* harmony import */ var _templates_actor_page_template__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../templates/actor.page.template */ \"./src/templates/actor.page.template.js\");\n\r\n\r\n\r\nasync function apiInfo(type, id) {\r\n  \r\n    const url = `https://api.themoviedb.org/3/${type}/${id}?api_key=4c6a69b63f9516de8cf08c2d709034ab`\r\n  \r\n    const response = await fetch(url);\r\n    const data = await response.json();\r\n\r\n    console.log('INFO: ', data)\r\n\r\n    if (type === 'movie') {\r\n        const html = Object(_templates_movie_page_template__WEBPACK_IMPORTED_MODULE_0__[\"renderPageMovie\"])(data)\r\n        site.insertAdjacentHTML(\"afterbegin\", html);\r\n    } else if (type === 'person') {\r\n        const html = Object(_templates_actor_page_template__WEBPACK_IMPORTED_MODULE_1__[\"renderPageActor\"])(data)\r\n        site.insertAdjacentHTML(\"afterbegin\", html);\r\n    }\r\n}\r\n\r\nconst site = document.querySelector(\".movie__info\");\n\n//# sourceURL=webpack:///./src/services/api.info.servise.js?");
 
 /***/ }),
 
@@ -174,11 +198,23 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /*!*************************************!*\
   !*** ./src/services/api.servise.js ***!
   \*************************************/
-/*! exports provided: load */
+/*! exports provided: load, returnData */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"load\", function() { return load; });\n/* harmony import */ var _components_pagination_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../components/pagination.component */ \"./src/components/pagination.component.js\");\n\r\n\r\nasync function load(event, type) {\r\n\r\n  event.preventDefault()\r\n\r\n  const url =`https://api.themoviedb.org/3/trending/${type}/week?api_key=4c6a69b63f9516de8cf08c2d709034ab`;\r\n\r\n  const response = await fetch(url);\r\n  const data = await response.json();\r\n\r\n  console.log(data);\r\n\r\n  Object(_components_pagination_component__WEBPACK_IMPORTED_MODULE_0__[\"paginationComponent\"])(data.results, type)\r\n}\r\n\n\n//# sourceURL=webpack:///./src/services/api.servise.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"load\", function() { return load; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"returnData\", function() { return returnData; });\n/* harmony import */ var _components_pagination_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../components/pagination.component */ \"./src/components/pagination.component.js\");\n\r\n\r\nasync function load(event, type) {\r\n\r\n  event.preventDefault()\r\n\r\n  const url =`https://api.themoviedb.org/3/trending/${type}/week?api_key=4c6a69b63f9516de8cf08c2d709034ab`;\r\n\r\n  const response = await fetch(url);\r\n  const data = await response.json();\r\n\r\n  console.log(data);\r\n  arrData = data.results\r\n\r\n  Object(_components_pagination_component__WEBPACK_IMPORTED_MODULE_0__[\"paginationComponent\"])(data.results, type)\r\n}\r\n\r\nfunction returnData() {\r\n  return arrData\r\n}\r\n\r\nlet arrData = []\n\n//# sourceURL=webpack:///./src/services/api.servise.js?");
+
+/***/ }),
+
+/***/ "./src/services/search.servise.js":
+/*!****************************************!*\
+  !*** ./src/services/search.servise.js ***!
+  \****************************************/
+/*! exports provided: search */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"search\", function() { return search; });\nfunction search() {\r\n    let val = this.value.trim()\r\n    let searchItems = document.querySelectorAll('.post__card')\r\n    let itemsH3 = document.querySelectorAll('.post__card-title')\r\n    if (val != '') {\r\n        searchItems.forEach((el, i) => {\r\n            if (itemsH3[i].innerText.toLowerCase().search(val.toLowerCase()) == -1) {\r\n                el.classList.add('hide')\r\n            } else {\r\n                el.classList.remove('hide')\r\n            }\r\n        })\r\n    } else {\r\n        searchItems.forEach((el) => {\r\n            el.classList.remove('hide')\r\n        })\r\n    }\r\n}\n\n//# sourceURL=webpack:///./src/services/search.servise.js?");
 
 /***/ }),
 
@@ -193,6 +229,30 @@ eval("var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/run
 
 /***/ }),
 
+/***/ "./src/templates/actor.page.template.js":
+/*!**********************************************!*\
+  !*** ./src/templates/actor.page.template.js ***!
+  \**********************************************/
+/*! exports provided: renderPageActor */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"renderPageActor\", function() { return renderPageActor; });\nfunction renderPageActor(element) {\r\n    return `\r\n        <div class=\"movie__wrapper\">\r\n            <h2 class=\"movie__title\">${element.name}</h2>\r\n            <div class=\"movie__posters\">\r\n                <div class=\"desc\">\r\n                    <p>${element.biography}</p>\r\n                    <ul>\r\n                        <li>День рождения: ${element.birthday}</li>\r\n                        <li>Родился в: ${element.place_of_birth}</li>\r\n                        <li>Рейтинг: ${element.popularity} </li>\r\n                        <li>Статус: ${element.known_for_department}</li>\r\n                    </ul>\r\n                </div>\r\n                <div class=\"poster\">\r\n                    <img src=\"https://image.tmdb.org/t/p/w500${element.profile_path}\" alt=\"${element.name}\">\r\n                </div>\r\n            </div>\r\n        </div>\r\n    `;\r\n}\n\n//# sourceURL=webpack:///./src/templates/actor.page.template.js?");
+
+/***/ }),
+
+/***/ "./src/templates/movie.page.template.js":
+/*!**********************************************!*\
+  !*** ./src/templates/movie.page.template.js ***!
+  \**********************************************/
+/*! exports provided: renderPageMovie */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"renderPageMovie\", function() { return renderPageMovie; });\nfunction renderPageMovie(element) {\r\n    // console.log('Render: ', element)\r\n    return `\r\n        <div class=\"movie__wrapper\">\r\n            <h2 class=\"movie__title\">${element.title}</h2>\r\n            <div class=\"movie__posters\">\r\n                <div class=\"desc\">\r\n                    <p>${element.overview}</p>\r\n                    <ul>\r\n                        <li>Бюджет: ${element.budget} </li>\r\n                        <li>Жанр: </li>\r\n                        <li>Страна: ${element.production_countries.map(i => i.name)}</li>\r\n                        <li>Дата релиза: ${element.release_date}</li>\r\n                    </ul>\r\n                </div>\r\n                <div class=\"poster\">\r\n                    <img src=\"https://image.tmdb.org/t/p/w500${element.poster_path}\" alt=\"${element.original_title}\">\r\n                </div>\r\n            </div>\r\n        </div>\r\n    `\r\n}\n\n//# sourceURL=webpack:///./src/templates/movie.page.template.js?");
+
+/***/ }),
+
 /***/ "./src/templates/movie.template.js":
 /*!*****************************************!*\
   !*** ./src/templates/movie.template.js ***!
@@ -201,7 +261,7 @@ eval("var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/run
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"renderPost\", function() { return renderPost; });\nfunction renderPost(element) {\r\n  return `\r\n        <div class=\"post__card\">\r\n            <div class=\"post__card-pic\">\r\n                <img src=\" https://image.tmdb.org/t/p/w500${element.poster_path} \" alt=\" ${element.title} \"/>\r\n            </div>\r\n            <h3 class=\"post__card-title\">${element.title}</h3>\r\n            <p class=\"post__card-desc\">\r\n                ${element.overview}\r\n            </p>\r\n        </div>\r\n    `;\r\n}\r\n\n\n//# sourceURL=webpack:///./src/templates/movie.template.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"renderPost\", function() { return renderPost; });\nfunction renderPost(element) {\r\n  return `\r\n        <div class=\"post__card\">\r\n                <div class=\"post__card-pic\">\r\n                    <img src=\" https://image.tmdb.org/t/p/w500${element.poster_path} \" alt=\" ${element.title} \"/>\r\n                </div>\r\n                <a href=\"#\" class=\"post-link\"><h3 class=\"post__card-title\" data-id=\"${element.id}\" data-type=\"movie\">${element.title} (${element.release_date.split('-').join('.')})</h3></a>\r\n                <p class=\"post__card-desc\">\r\n                    ${element.overview}\r\n                </p>\r\n        </div>\r\n    `;\r\n}\r\n\n\n//# sourceURL=webpack:///./src/templates/movie.template.js?");
 
 /***/ }),
 
@@ -213,7 +273,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"renderPerson\", function() { return renderPerson; });\nfunction renderPerson(element) {\r\n  return `\r\n          <div class=\"post__card\">\r\n              <div class=\"post__card-pic\">\r\n                  <img src=\" https://image.tmdb.org/t/p/w500${element.profile_path} \" alt=\" ${element.name} \"/>\r\n              </div>\r\n              <h3 class=\"post__card-title\">${element.name}</h3>\r\n          </div>\r\n      `;\r\n}\r\n\n\n//# sourceURL=webpack:///./src/templates/person.template.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"renderPerson\", function() { return renderPerson; });\nfunction renderPerson(element) {\r\n  return `\r\n          <div class=\"post__card\">\r\n              <div class=\"post__card-pic\">\r\n                  <img src=\" https://image.tmdb.org/t/p/w500${element.profile_path} \" alt=\" ${element.name} \"/>\r\n              </div>\r\n              <a href=\"#\" class=\"person-link\"><h3 class=\"post__card-title\" data-id=\"${element.id}\" data-type=\"person\">${element.name}</h3></a>\r\n          </div>\r\n      `;\r\n}\r\n\n\n//# sourceURL=webpack:///./src/templates/person.template.js?");
 
 /***/ })
 
