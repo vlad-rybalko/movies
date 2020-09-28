@@ -2,6 +2,7 @@ import "./styles/main.css";
 import { load } from "./services/api.servise"
 import { pageMovieComponent } from "./components/page.movie.component"
 import { search } from './services/search.servise';
+import { paginationComponent } from './components/pagination.component'
 
 
 
@@ -11,3 +12,5 @@ document.querySelector('#item-movies').addEventListener('click', (event) => load
 document.querySelector('#search').oninput = search
 
 document.querySelector('.post__cards').addEventListener('click', (event) => pageMovieComponent(event))
+
+document.querySelector('.pagination').addEventListener('click', (event) => paginationComponent(event))

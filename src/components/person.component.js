@@ -1,4 +1,5 @@
 import { renderPerson } from './../templates/person.template';
+import { showContent } from '../components/pagination.component'
 
 export function personComponent(data) {
 
@@ -9,6 +10,8 @@ export function personComponent(data) {
         const html = renderPerson(element)
         site.insertAdjacentHTML("beforeend", html);
     });
+
+    showContent()
 }
 
 const site = document.querySelector(".post__cards");

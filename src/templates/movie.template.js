@@ -1,6 +1,6 @@
 export function renderPost(element) {
   return `
-        <div class="post__card">
+        <div class="post__card hide">
                 <div class="post__card-pic">
                     <img src=" https://image.tmdb.org/t/p/w500${element.poster_path} " alt=" ${element.title} "/>
                 </div>

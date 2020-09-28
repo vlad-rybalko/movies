@@ -1,4 +1,5 @@
-import { paginationComponent } from './../components/pagination.component';
+import { moviesComponent } from './../components/movies.component';
+import { personComponent } from './../components/person.component';
 
 export async function load(event, type) {
 
@@ -9,14 +10,11 @@ export async function load(event, type) {
   const response = await fetch(url);
   const data = await response.json();
 
-  console.log(data);
-  arrData = data.results
+  document.querySelector('.pagination').classList.remove('hide')
 
-  paginationComponent(data.results, type)
+  if (type === "movie") {
+    moviesComponent(data.results);
+  } else {
+    personComponent(data.results);
+  }
 }
-
-export function returnData() {
-  return arrData
-}
-
-let arrData = []

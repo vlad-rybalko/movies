@@ -7,6 +7,7 @@ export async function apiInfo(type, id) {
   
     const response = await fetch(url);
     const data = await response.json();
+    document.querySelector('.pagination').classList.add('hide')
 
     console.log('INFO: ', data)
 
