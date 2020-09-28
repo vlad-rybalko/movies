@@ -1,4 +1,3 @@
-import { renderPagePerson } from "../templates/movie.page.template"
 import { apiInfo } from "../services/api.info.servise"
 
 export function pageMovieComponent(event) {
@@ -9,8 +8,10 @@ export function pageMovieComponent(event) {
         const type = event.target.dataset.type
         const id = event.target.dataset.id
         site.innerHTML = ''
+        movieInfo.innerHTML = ''
         apiInfo(type, id)
     }
 }
 
-const site = document.querySelector(".content");
+const site = document.querySelector(".post__cards");
+const movieInfo = document.querySelector(".movie__info");

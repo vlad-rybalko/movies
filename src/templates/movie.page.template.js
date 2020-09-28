@@ -18,5 +18,5 @@ export function renderPageMovie(element) {
                 </div>
             </div>
         </div>
-      `
+    `
 }

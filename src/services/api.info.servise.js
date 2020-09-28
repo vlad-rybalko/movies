@@ -8,13 +8,15 @@ export async function apiInfo(type, id) {
     const response = await fetch(url);
     const data = await response.json();
 
+    console.log('INFO: ', data)
+
     if (type === 'movie') {
         const html = renderPageMovie(data)
         site.insertAdjacentHTML("afterbegin", html);
-    } else if (type === 'actor') {
+    } else if (type === 'person') {
         const html = renderPageActor(data)
         site.insertAdjacentHTML("afterbegin", html);
     }
 }
 
-const site = document.querySelector(".content");
+const site = document.querySelector(".movie__info");
