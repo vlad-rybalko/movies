@@ -2,6 +2,10 @@ export function paginationComponent(event) {
   event.preventDefault()
 
   if(event.target.tagName === 'A') {
+
+    document.querySelectorAll('.page-item').forEach(i => {i.classList.remove('active')})
+    event.target.parentNode.classList.add('active')
+
     pageNum = event.target.textContent
     console.log(pageNum)
     showContent()

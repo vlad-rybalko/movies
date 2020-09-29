@@ -1,5 +1,4 @@
 import { moviesComponent } from './../components/movies.component';
-import { personComponent } from './../components/person.component';
 
 export async function load(event, type) {
 
@@ -12,9 +11,11 @@ export async function load(event, type) {
 
   document.querySelector('.pagination').classList.remove('hide')
 
-  if (type === "movie") {
-    moviesComponent(data.results);
-  } else {
-    personComponent(data.results);
-  }
+  moviesComponent(data.results, type)
+
+  // if (type === "movie") {
+  //   moviesComponent(data.results);
+  // } else {
+  //   personComponent(data.results);
+  // }
 }

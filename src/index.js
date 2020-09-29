@@ -1,6 +1,6 @@
 import "./styles/main.css";
 import { load } from "./services/api.servise"
-import { pageMovieComponent } from "./components/page.movie.component"
+import { pageMovieComponent } from "./components/page.component"
 import { search } from './services/search.servise';
 import { paginationComponent } from './components/pagination.component'
 

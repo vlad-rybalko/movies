@@ -1,14 +1,23 @@
 import { renderPost } from '../templates/movie.template';
-import { showContent } from '../components/pagination.component'
+import { renderPerson } from './../templates/person.template';
+import { showContent } from '../components/pagination.component';
 
-export function moviesComponent(data) {
+export function moviesComponent(data, type) {
+
     site.innerHTML = ''
     movieInfo.innerHTML = ''
 
-    data.forEach((element) => {
-        const html = renderPost(element)
-        site.insertAdjacentHTML("beforeend", html);
-    });
+    if (type === "movie") {
+        data.forEach((element) => {
+            const html = renderPost(element)
+            site.insertAdjacentHTML("beforeend", html);
+        });
+    } else {
+        data.forEach((element) => {
+            const html = renderPerson(element)
+            site.insertAdjacentHTML("beforeend", html);
+        });
+    }   
 
     showContent()
 }
