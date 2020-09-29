@@ -4,13 +4,8 @@ import { pageMovieComponent } from "./components/page.component"
 import { search } from './services/search.servise';
 import { paginationComponent } from './components/pagination.component'
 
-
-
 document.querySelector('#item-actors').addEventListener('click', (event) => load(event, 'person'))
 document.querySelector('#item-movies').addEventListener('click', (event) => load(event, 'movie'))
-
 document.querySelector('#search').oninput = search
-
 document.querySelector('.post__cards').addEventListener('click', (event) => pageMovieComponent(event))
-
 document.querySelector('.pagination').addEventListener('click', (event) => paginationComponent(event))

@@ -1,5 +1,5 @@
 export function renderPageActor(element) {
-    return `
+  return `
         <div class="movie__wrapper">
             <h2 class="movie__title">${element.name}</h2>
             <div class="movie__posters">

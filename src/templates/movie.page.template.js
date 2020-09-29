@@ -1,6 +1,5 @@
 export function renderPageMovie(element) {
-    // console.log('Render: ', element)
-    return `
+  return `
         <div class="movie__wrapper">
             <h2 class="movie__title">${element.title}</h2>
             <div class="movie__posters">
@@ -9,7 +8,7 @@ export function renderPageMovie(element) {
                     <ul>
                         <li>Бюджет: ${element.budget} </li>
                         <li>Жанр: </li>
-                        <li>Страна: ${element.production_countries.map(i => i.name)}</li>
+                        <li>Страна: ${element.production_countries.map((i) => i.name)}</li>
                         <li>Дата релиза: ${element.release_date}</li>
                     </ul>
                 </div>
@@ -18,5 +17,5 @@ export function renderPageMovie(element) {
                 </div>
             </div>
         </div>
-    `
+    `;
 }
