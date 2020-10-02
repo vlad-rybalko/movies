@@ -1,3 +1,5 @@
+// получение номера страницы и запись в переменную 'pageNum'
+
 export function paginationComponent(event) {
   event.preventDefault();
 
@@ -13,6 +15,8 @@ export function paginationComponent(event) {
   }
 }
 
+// Показ контента при нажатии на номер страницы
+
 export function showContent() {
   const cardElements = Array.from(document.querySelectorAll(".post__card"));
   let start = (pageNum - 1) * notesOnPage;
@@ -25,4 +29,4 @@ export function showContent() {
 }
 
 let pageNum = 1;
-const notesOnPage = 4;
+const notesOnPage = 4; // колличество карточек на странице

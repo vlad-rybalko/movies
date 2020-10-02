@@ -1,3 +1,5 @@
+// Шаблон HTML для страницы актера
+
 export function renderPageActor(element) {
   return `
         <div class="movie__wrapper">

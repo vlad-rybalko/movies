@@ -1,3 +1,5 @@
+// Шаблон HTML для корточек актеров
+
 export function renderPerson(element) {
   return `
           <div class="post__card hide">

@@ -1,3 +1,5 @@
+// Шаблон HTML для корточек фильмов
+
 export function renderPost(element) {
   return `
         <div class="post__card hide">

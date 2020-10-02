@@ -1,3 +1,5 @@
+// Загрузка информации для страницы фильмов и актеров
+
 import { renderPageMovie } from "../templates/movie.page.template";
 import { renderPageActor } from "../templates/actor.page.template";
 

@@ -1,3 +1,5 @@
+// Поиск карточек актеров и фильмов
+
 export function search() {
   let val = this.value.trim();
   let searchItems = document.querySelectorAll(".post__card");

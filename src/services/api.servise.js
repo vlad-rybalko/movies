@@ -1,3 +1,5 @@
+// Загрузка информации для карточек фильмов и актеров
+
 import { moviesComponent } from "./../components/movies.component";
 
 export async function load(event, type) {

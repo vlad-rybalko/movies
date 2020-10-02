@@ -1,3 +1,5 @@
+// Очистка старого контента и рендеринг новых карточек фильмов или сериалов
+
 import { renderPost } from "../templates/movie.template";
 import { renderPerson } from "./../templates/person.template";
 import { showContent } from "../components/pagination.component";

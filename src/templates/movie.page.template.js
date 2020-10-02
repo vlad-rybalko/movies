@@ -1,3 +1,5 @@
+// Шаблон HTML для страницы фильма
+
 export function renderPageMovie(element) {
   return `
         <div class="movie__wrapper">
