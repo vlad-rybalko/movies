@@ -1,6 +1,6 @@
 // Загрузка информации для карточек фильмов и актеров
 
-import { moviesComponent } from "./../components/movies.component";
+import { moviesComponent } from "../components/cards.component";
 
 export async function load(event, type) {
   event.preventDefault();

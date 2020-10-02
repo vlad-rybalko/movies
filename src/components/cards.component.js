@@ -1,8 +1,8 @@
 // Очистка старого контента и рендеринг новых карточек фильмов или сериалов
 
-import { renderPost } from "../templates/movie.template";
-import { renderPerson } from "./../templates/person.template";
-import { showContent } from "../components/pagination.component";
+import { renderPost } from "../templates/movie.cards.template";
+import { renderPerson } from "../templates/person.cards.template";
+import { showContent } from "./pagination.component";
 
 export function moviesComponent(data, type) {
   site.innerHTML = "";

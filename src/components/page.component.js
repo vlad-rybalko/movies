@@ -1,6 +1,6 @@
 // Очистка старого контента и рендеринг страницы фильма или актера
 
-import { apiInfo } from "../services/api.info.servise";
+import { apiInfo } from "../services/info.servise";
 
 export function pageMovieComponent(event) {
   if (event.target.tagName === "H3") {
